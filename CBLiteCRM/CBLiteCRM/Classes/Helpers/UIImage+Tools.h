@@ -10,6 +10,6 @@
 
 @interface UIImage (Tools)
 
-- (UIImage*) scaledSquiredImageToSize:(CGFloat)size; // width or height
+- (UIImage*) scaledSquaredImageToSize:(CGFloat)size; // width or height
 
 @end

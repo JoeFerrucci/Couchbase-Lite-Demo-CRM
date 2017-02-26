@@ -38,7 +38,7 @@
     return squareImage;
 }
 
-- (UIImage*) scaledSquiredImageToSize:(CGFloat)size {
+- (UIImage*) scaledSquaredImageToSize:(CGFloat)size {
     
     // Create Squired Image
     UIImage * squiredImage = [self squiredImage];

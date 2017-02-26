@@ -145,7 +145,7 @@ typedef void (^ValidationBlock)(BOOL isValid, NSString *msg);
 
 - (void)setPhotoImage:(UIImage*)image
 {
-    UIImage * scaledImage = [image scaledSquiredImageToSize:kContactDetailsViewControllerImageSize];
+    UIImage * scaledImage = [image scaledSquaredImageToSize:kContactDetailsViewControllerImageSize];
     
     self.photoView.image = selectedImage = scaledImage;
 }
